@@ -1,0 +1,15 @@
+﻿.btn-link {
+    &.btn-like {
+        text-decoration: none;
+        color: $default-font-color;
+        font-weight: 600;
+
+        &.liked {
+            color: $like-color;
+        }
+
+        &:hover {
+            background-color: $like-hover-bg-color;
+        }
+    }
+}

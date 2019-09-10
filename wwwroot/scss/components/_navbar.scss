@@ -1,0 +1,257 @@
+﻿@media (min-width: $side-navbar) {
+    .header {
+        .navbar {
+            background: #fff;
+            margin-bottom: 0;
+
+            .logo {
+                width: 80px;
+            }
+
+            .navbar-brand {
+                color: #fff;
+                padding-top: 0;
+            }
+
+            .nav-link {
+                color: black;
+            }
+
+            .menu-item-admin {
+                width: $avatar-size;
+                height: $avatar-size;
+                text-decoration: none;
+                color: black;
+            }
+
+            .avatar {
+                width: $avatar-size;
+                height: $avatar-size;
+                border: solid 1px $form-control-border-color;
+                overflow: hidden;
+                border-radius: 100%;
+            }
+
+            .navbar-nav {
+                display: none;
+            }
+        }
+
+        #watermask-right {
+            background-image: url("https://www.thaipbs.or.th/images/logo/watermarkbirdwing-right.png");
+            width: 300px;
+            height: 80px;
+            background-position: center;
+            background-size: cover;
+            display: inline-block;
+            z-index: 1033;
+            position: fixed;
+            right: 0;
+
+            .menu-item-admin {
+                width: 40px;
+                height: 40px;
+                right: 0;
+                display: block;
+                position: absolute;
+                margin-top: 20px;
+                margin-right: 15px;
+
+
+
+                li {
+                    display: block;
+
+                    a {
+                        color: black !important;
+                        font-size: 14px;
+                        padding-left: 15px;
+                    }
+                }
+
+                a {
+                    text-decoration: none !important;
+                }
+
+                .menu-link {
+                    text-align: center;
+
+                    img {
+                        width: 100%;
+                        border-radius: 100%;
+                    }
+                }
+
+                menu-link-img {
+                    display: block;
+                    margin: 0 auto 0.5rem auto;
+                    width: 40px;
+                }
+
+                span {
+                    @include menu-link-text-admin;
+                }
+            }
+            //---------------------icons---------------------------------
+            ul.social-sharing {
+                display: inline-block;
+                float: right;
+                margin: 0;
+                padding-top: 20px;
+                padding-right: 60px;
+            }
+
+
+            li {
+                display: inline-block;
+                margin-right: 5px;
+
+                a {
+                    color: #fff !important;
+                    width: 36px;
+                    height: 40px;
+                    border: 0;
+                    font-size: 1.7em;
+                    border-radius: 0;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $side-navbar-medium) {
+
+    .header {
+        .navbar {
+            background: #fff;
+            padding-top: 15px;
+            padding-bottom: 20px;
+            margin-bottom: 0;
+
+            .logo {
+                width: 130px;
+            }
+
+            .navbar-brand {
+                color: black;
+            }
+
+
+
+            .avatar {
+                width: $avatar-size;
+                height: $avatar-size;
+                border: solid 1px $form-control-border-color;
+                overflow: hidden;
+                border-radius: 100%;
+            }
+
+            .menu-item-admin {
+                width: $avatar-size;
+                height: $avatar-size;
+                text-decoration: none;
+                color: black;
+            }
+
+            .nav_admin {
+                background-color: #fff;
+                margin-left: -1rem;
+                color: black;
+
+                img {
+                    margin-right: 10px;
+                }
+            }
+
+            .navbar-nav {
+                display: block !important;
+            }
+
+            .dropdown {
+                display: none;
+            }
+        }
+    }
+
+    .navbar-collapse {
+        margin-left: -1rem;
+        padding-left: 1rem;
+        margin-right: -1rem !important;
+    }
+
+    .navbar-nav {
+        margin-left: -1rem;
+        padding-left: 1rem;
+        margin-right: -1rem !important;
+        background-color: #fff;
+
+        .nav-link {
+            color: black !important;
+
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: $side-navbar-large) {
+    .header {
+
+        .logo {
+            width: 130px;
+        }
+
+        .navbar-nav {
+            display: block !important;
+        }
+    }
+
+    .navbar {
+        background: linear-gradient(to right, #fe5000, #d72114);
+        padding-top: 15px;
+        padding-bottom: 23px;
+        margin-bottom: 0;
+
+        .navbar-brand {
+            color: #fff;
+        }
+
+        .navbar-collapse {
+            margin-left: -1rem;
+            padding-left: 1rem;
+            margin-right: -1rem !important;
+        }
+
+        .navbar-nav {
+            margin-left: -1rem;
+            padding-left: 1rem;
+            margin-right: -1rem !important;
+            background-color: #fff;
+
+            .nav-link {
+                color: black !important;
+
+                img {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .nav_admin {
+            background-color: #fff;
+            margin-left: -1rem;
+            color: #fff !important;
+
+            .nav-link {
+                margin-left: 1rem;
+                color: black;
+            }
+        }
+
+        .dropdown {
+            display: none;
+        }
+    }
+}

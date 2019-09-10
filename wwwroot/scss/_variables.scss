@@ -1,0 +1,52 @@
+﻿@mixin menu-link-img {
+    display: block;
+    margin: 0 auto 0.5rem auto;
+    width: $avatar-size;
+}
+
+@mixin menu-link-text-user {
+    text-align: center;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+@mixin menu-link-text-admin {
+    text-align: center;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+$side-menu-w: 408px;
+$side-menu-sm-w: 100px;
+$side-menu-z-index: 1000;
+$side-menu-hide-breakpoint: 992px;
+$side-navbar: 575.98px;
+$side-navbar-medium: 767.98px;
+$side-navbar-large: 992px;
+$avatar-size: 40px;
+
+$appbar-h: 58px;
+$appbar-z-index: 1071;
+
+
+$container-feed-w: 530px;
+$container-gap: 15px;
+
+
+$app-bg-color-small: #e0e0e0;
+$app-bg-color: #F4F5F7;
+
+$card-border-color: #dfe1e5;
+
+
+$like-color: #007bff;
+$like-hover-bg-color: rgba(0,0,0,0.06);
+$default-font-color: #444;
+
+$form-control-border-color: rgba(0,0,0,0.125);
+
+
+$padding-container-l: 100px;
+$padding-container-r: 400px;

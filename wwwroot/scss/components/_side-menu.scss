@@ -1,0 +1,26 @@
+﻿.side-menu {
+    padding-top: $appbar-h;
+    padding-right: $container-gap;
+    padding-left: $container-gap;
+
+    &-r {
+        width: $side-menu-w;
+        right: 0;
+    }
+
+    &-l {
+        width: $side-menu-sm-w;
+    }
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: $side-menu-z-index;
+    display: none;
+}
+
+@media (min-width: $side-menu-hide-breakpoint) {
+    .side-menu {
+        display: block;
+    }
+}

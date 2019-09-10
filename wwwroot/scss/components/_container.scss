@@ -1,0 +1,11 @@
+﻿.container-feed {
+    max-width: $container-feed-w;
+}
+
+
+@media (min-width: $side-menu-hide-breakpoint) {
+    .container-feed {
+        padding-right: $container-gap;
+        padding-left: $container-gap;
+    }
+}

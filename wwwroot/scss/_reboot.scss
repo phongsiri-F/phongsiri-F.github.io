@@ -1,0 +1,10 @@
+﻿body {
+    background-color: $app-bg-color-small;
+    color: $default-font-color;
+}
+
+@media (min-width: $container-feed-w) {
+    body {
+        background-color: $app-bg-color;
+    }
+}

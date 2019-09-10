@@ -1,0 +1,11 @@
+﻿.app-content {
+    padding-top: $appbar-h;
+}
+
+
+@media (min-width: $side-menu-hide-breakpoint) {
+    .app-content {
+        padding-right: $side-menu-w;
+        padding-left: $side-menu-sm-w;
+    }
+}
